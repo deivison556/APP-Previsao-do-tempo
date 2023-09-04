@@ -1,0 +1,97 @@
+/* Resete de configuração */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Imagem de fundo do site */
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Container do conteúdo do tempo */
+main #container-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 30vh;
+    background-color: rgb(0, 0, 0, .8);
+    border-radius: 25px;
+    width: 400px;
+    height: 250px;
+    padding: 15px;
+}
+
+/* Contaienr dos butões */
+#box-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#box-button #input-city {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: white;
+    transition: .8s;
+}
+
+#box-button #input-city:hover {
+    background-color: #cfcfcf2b;
+    transition: .8s;
+}
+
+#botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .8s;
+}
+
+#botao-busca:hover {
+    background-color: white;
+    transition: .8s;
+}
+
+#img-busca {
+    width: 20px;
+}
+
+/* container do icone do tempo */
+#box-time {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left:-10px;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    margin: 5px 0 20px 0;
+
+}
+
+p {
+    font-size: 16px;
+    color: white;
+}
