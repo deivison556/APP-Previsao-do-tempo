@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <script src="javascript/script.js"></script>
     <title>Previsão do tempo</title>
 </head>
 <body>
@@ -11,16 +13,17 @@
         <div id="container-box">
             <div id="box-button">
                 <input id="input-city" type="text" placeholder="Digite o nome da site">
-                <button id="botao-busca">
+                <button id="botao-busca" onclick="cliqueiNoBotao()">
                     <img id="img-busca" src="imagens/lupa.svg" alt="busca">
                 </button>
             </div>
-            <h2>Tempo em São Paulo</h2>
-            <p>21° C</p>
+            <h2 id="city">Tempo em São Paulo</h2>
+            <p id="temp">21° C</p>
             <div id="box-time">
-                <img src="imagens/nuvem nublado.png" alt="icone de informação do tempo"> <p>Nublado</p>
+                <img id="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone de informação do tempo"> 
+                <p id="temp-texto">Nublado</p>
             </div>
-            <p>Umidade: 76%</p>
+            <p id="umidade">Umidade: 76%</p>
         </div>
     </main>
 </body>
